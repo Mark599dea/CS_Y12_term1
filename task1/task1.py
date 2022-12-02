@@ -18,6 +18,7 @@ def gather_numbers() -> list[float]:
         cont = check_continue()
     return numbers
 
+print("some change")
 
 def convert_to_int(x: float) -> float | int:
     if x.is_integer():
